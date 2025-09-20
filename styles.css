@@ -1,0 +1,287 @@
+h1 {
+  font-size: 128px;
+  color: #95B2B0;
+  text-align: left;
+  margin-right: 200px;
+  margin-left: 700px;
+  font-family: "Rubik", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  position: relative;
+  transition: transform 0.3s ease, color 0.3s ease;
+  padding: 2px 4px;
+  line-height: 1;
+  display: inline-block;
+  cursor: pointer;
+
+}
+
+
+
+#First {
+  margin-top: 80px;
+  transition: transform 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+
+}
+
+#First:hover {
+  transform: scale(1.1);
+  color: #DBB3B1;
+}
+
+#Last {
+
+  transition: transform 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+
+}
+
+#Last:hover {
+  transform: scale(1.1);
+  color: #DBB3B1;
+}
+
+#p1 {
+  font-size: 32px;
+  text-align: left;
+  margin-right: 200px;
+  margin-left: 710px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+#p2 {
+  font-size: 32px;
+  text-align: left;
+  margin-right: 200px;
+  margin-left: 710px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+#p3 {
+  font-size: 32px;
+  text-align: center;
+  margin-top: 10px;
+  cursor: pointer;
+
+}
+
+p {
+  font-family: "Rubik", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #95B2B0;
+  transition: text-shadow 0.3s ease;
+  cursor: pointer;
+
+}
+
+p::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(90deg, #DBB3B1, #DBB3B1);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+p:hover {
+  color: #DBB3B1;
+}
+
+a {
+  font-size: 32px;
+  text-align: left;
+  font-family: "Rubik", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: #95B2B0;
+  transition: text-shadow 0.3s ease;
+}
+
+a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(90deg, #9E2A2B, #9E2A2B);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+a:hover {
+  color: #9E2A2B;
+}
+
+#Image1 {
+
+  max-width: 600px;
+  height: 600px;
+  /* border: 1px solid red; */
+  margin-top: -500px;
+  margin-left: 200px;
+  border-radius: 30%;
+  padding: 0px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+img {
+  background-color: aliceblue;
+  transition: transform 0.3s ease;
+  border-radius: 20px;
+}
+
+img:hover {
+  transform: scale(1.2);
+}
+
+body {
+  background-color: #2E4057;
+}
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Menu Bar Styling */
+.menu-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2E4057;
+  padding: 10px 30px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.menu-bar .logo a {
+  font-size: 2rem;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.menu-items {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+
+.menu-items a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5rem;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.menu-items a:hover {
+  color: #DBB3B1;
+
+}
+
+section {
+  padding: 100px 20px;
+  margin-top: 60px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#about {
+  background-color: #2E4057;
+}
+
+#About-Me {
+  margin-top: 0px;
+  transition: transform 0.3s ease, color 0.3s ease;
+
+
+}
+
+#About-Me:hover {
+  transform: scale(1.1);
+  color: #DBB3B1;
+}
+
+h2 {
+  font-size: 128px;
+  color: #95B2B0;
+  text-align: left;
+  margin-right: 100px;
+  margin-left: 700px;
+  font-family: "Rubik", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  position: relative;
+  transition: transform 0.3s ease, color 0.3s ease;
+  padding: 2px 4px;
+  line-height: 1;
+  display: inline-block;
+  cursor: pointer;
+
+}
+
+
+#Image2 {
+  height: 500px;
+  width: auto;
+  margin-top: -600px;
+  margin-bottom: 20px;
+  margin-left: 100px;
+}
+
+#Projects {
+  margin-top: 0px;
+  margin-left: 470px;
+  transition: transform 0.3s ease, color 0.3s ease;
+
+
+}
+
+#Projects:hover {
+  transform: scale(1.1);
+  color: #DBB3B1;
+}
+
+h3 {
+  font-size: 128px;
+  color: #95B2B0;
+  text-align: center;
+  font-family: "Rubik", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  position: relative;
+  transition: transform 0.3s ease, color 0.3s ease;
+  padding: 2px 4px;
+  line-height: 1;
+  display: inline-block;
+  cursor: pointer;
+
+}
